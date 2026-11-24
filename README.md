@@ -30,6 +30,7 @@ docker volume create s13-training-camps-data
 docker run -d --name s13-training-camps --restart unless-stopped -p 8080:8080 -v s13-training-camps-data:/data s13-training-camps:latest
 ```
 
+
 Open <http://localhost:8080>.
 
 ## Verify
